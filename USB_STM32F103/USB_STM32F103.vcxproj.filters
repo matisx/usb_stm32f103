@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{93df55c4-dfe1-4f81-b292-93d33b1e7843}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{6c9e418d-ec22-40f4-8c49-c3fefe33451c}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{a98f4c90-93ac-45f1-a74c-1ae1a0fb13df}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Make files">
+      <UniqueIdentifier>{13992571-e361-42c2-ba2f-534968b54390}</UniqueIdentifier>
+      <Extensions>*.mak</Extensions>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{0ea3c562-6f9f-4aa1-a421-f60a67bd87b7}</UniqueIdentifier>
+      <Extensions>*.vgdbsettings</Extensions>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{93b140bf-606c-4020-9966-7782cd8b79af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files">
+      <UniqueIdentifier>{5b0b2ac6-0000-4457-81d7-8770ef603ea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USBdriver">
+      <UniqueIdentifier>{7cf925a1-afda-4877-9847-aa025b37d43a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\USBdriver">
+      <UniqueIdentifier>{cc5003c0-a9e1-45e7-afa8-0c7beeca0c1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USART">
+      <UniqueIdentifier>{68a192f4-af11-48d0-b92b-9690bebec021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\USART">
+      <UniqueIdentifier>{7095be97-5126-41da-946f-f2befc8cf9b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="system_stm32f10x.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSP\STM32F1xxxx\StartupFiles\startup_stm32f103xe.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\src\misc.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\src\stm32f10x_cec.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSP\STM32F1xxxx\CMSIS_StdPeriph\CM3\CoreSupport\core_cm3.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSP\STM32F1xxxx\STM32_USB-FS-Device_Driver\src\usb_core.c">
+      <Filter>Source files\USBdriver</Filter>
+    </ClCompile>
+    <ClCompile Include="BSP\STM32F1xxxx\STM32_USB-FS-Device_Driver\src\usb_init.c">
+      <Filter>Source files\USBdriver</Filter>
+    </ClCompile>
+    <ClCompile Include="BSP\STM32F1xxxx\STM32_USB-FS-Device_Driver\src\usb_int.c">
+      <Filter>Source files\USBdriver</Filter>
+    </ClCompile>
+    <ClCompile Include="BSP\STM32F1xxxx\STM32_USB-FS-Device_Driver\src\usb_mem.c">
+      <Filter>Source files\USBdriver</Filter>
+    </ClCompile>
+    <ClCompile Include="BSP\STM32F1xxxx\STM32_USB-FS-Device_Driver\src\usb_regs.c">
+      <Filter>Source files\USBdriver</Filter>
+    </ClCompile>
+    <ClCompile Include="BSP\STM32F1xxxx\STM32_USB-FS-Device_Driver\src\usb_sil.c">
+      <Filter>Source files\USBdriver</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stm32_it.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\usb_desc.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\usb_endp.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\usb_istr.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\usb_prop.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\usb_pwr.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hw_config.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stm3210b_eval.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\usart_it.c">
+      <Filter>Source files\USART</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hw.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\uart.c">
+      <Filter>Source files\USART</Filter>
+    </ClCompile>
+    <ClCompile Include="src\uart_hw.c">
+      <Filter>Source files\USART</Filter>
+    </ClCompile>
+    <ClCompile Include="src\uart_common.c">
+      <Filter>Source files\USART</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+    <None Include="debug.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="USB_STM32F103-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="release.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="USB_STM32F103-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="stm32.mak">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="stm32.xml">
+      <Filter>VisualGDB settings</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\inc\misc.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\CMSIS_StdPeriph\CM3\CoreSupport\core_cm3.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\CMSIS_StdPeriph\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\CMSIS_StdPeriph\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\STM32_USB-FS-Device_Driver\inc\usb_int.h">
+      <Filter>Header files\USBdriver</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\STM32_USB-FS-Device_Driver\inc\usb_lib.h">
+      <Filter>Header files\USBdriver</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\STM32_USB-FS-Device_Driver\inc\usb_mem.h">
+      <Filter>Header files\USBdriver</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\STM32_USB-FS-Device_Driver\inc\usb_regs.h">
+      <Filter>Header files\USBdriver</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\STM32_USB-FS-Device_Driver\inc\usb_sil.h">
+      <Filter>Header files\USBdriver</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\STM32_USB-FS-Device_Driver\inc\usb_type.h">
+      <Filter>Header files\USBdriver</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\STM32_USB-FS-Device_Driver\inc\usb_core.h">
+      <Filter>Header files\USBdriver</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\STM32_USB-FS-Device_Driver\inc\usb_def.h">
+      <Filter>Header files\USBdriver</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP\STM32F1xxxx\STM32_USB-FS-Device_Driver\inc\usb_init.h">
+      <Filter>Header files\USBdriver</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\hw_config.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\platform_config.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\stm32_it.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\stm32f10x_conf.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\usb_conf.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\usb_desc.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\usb_istr.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\usb_prop.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\usb_pwr.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\stm3210b_eval.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\stm32_eval_legacy.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\hw.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\uart_config.h">
+      <Filter>Header files\USART</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\uart.h">
+      <Filter>Header files\USART</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\uart_hw.h">
+      <Filter>Header files\USART</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\uart_common.h">
+      <Filter>Header files\USART</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
