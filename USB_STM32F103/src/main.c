@@ -48,7 +48,7 @@ int main(void)
 
 	while (1)
 	{
-		USBPrint("test USB \n");
+		USBPrint("test USB 2 \n");
 		//print("test UART2\n");
 		Delay();
 	}
